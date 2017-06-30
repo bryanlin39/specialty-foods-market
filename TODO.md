@@ -1,13 +1,13 @@
 # Specialty Foods Marketplace
 
 ### Core Functionality
-- [ ] Products Class: name, cost, origin (has many reviews)
-- [ ] Reviews Class: author, content, rating (belongs to product)
-- [ ] Seed database with 50 products and 250 reviews
-- [ ] Nav bar - home, products
+- [x] Product Class: name, cost, origin (has many reviews)
+- [x] Review Class: author, content, rating (belongs to product)
+- [x] Seed database with 50 products and 250 reviews
+- [x] Nav bar - home, products
 - [ ] Home page (root) - basic info, 3 most recently added products, product with the most reviews
-- [ ] Products page - all products
-- [ ] Individual product page - details, update, delete, all reviews, add new review
+- [x] Products page - all products
+- [x] Individual product page - details, update, delete, all reviews, add new review
 - [ ] Individual review page - details, update, delete
 - [ ] Scopes:
   - [ ] Product with most reviews
