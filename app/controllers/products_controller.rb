@@ -6,6 +6,7 @@ class ProductsController < ApplicationController
 
   def show
     @product = Product.find(params[:id])
+    @reviews = @product.reviews
   end
 
   def new
@@ -36,6 +37,9 @@ class ProductsController < ApplicationController
 
   def destroy
     @product = Product.find(params[:id])
+    @product.reviews.each do |review|
+      review.destroy
+    end
     @product.destroy
     redirect_to products_path, notice: 'Product successfully deleted!'
   end
