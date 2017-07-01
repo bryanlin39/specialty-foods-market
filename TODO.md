@@ -5,7 +5,7 @@
 - [x] Review Class: author, content, rating (belongs to product)
 - [x] Seed database with 50 products and 250 reviews
 - [x] Nav bar - home, products
-- [ ] Home page (root) - basic info, 3 most recently added products, product with the most reviews
+- [x] Home page (root) - basic info, 3 most recently added products, product with the most reviews
 - [x] Products page - all products
 - [x] Individual product page - details, update, delete, all reviews, add new review
 - [x] CRUD for reviews within product detail page
@@ -17,7 +17,7 @@
   - [x] All fields must be filled in
   - [x] Rating can only be a number between 1-5
   - [x] Review content must be between 50-250 characters
-- [ ] Custom styling
+- [x] Custom styling
 - [ ] Unit and integration tests
 - [x] Success and error flash messages
 - [ ] README
