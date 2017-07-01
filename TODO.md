@@ -18,9 +18,10 @@
   - [x] Rating can only be a number between 1-5
   - [x] Review content must be between 50-250 characters
 - [x] Custom styling
-- [ ] Unit and integration tests
+- [x] Unit tests
+- [ ] Integration tests
 - [x] Success and error flash messages
-- [ ] README
+- [x] README
 
 ### Further Exploration
 - [ ] Deploy to Heroku
