@@ -8,18 +8,18 @@
 - [ ] Home page (root) - basic info, 3 most recently added products, product with the most reviews
 - [x] Products page - all products
 - [x] Individual product page - details, update, delete, all reviews, add new review
-- [ ] Individual review page - details, update, delete
-- [ ] Scopes:
-  - [ ] Product with most reviews
-  - [ ] 3 most recently added products
-  - [ ] All products made in the US
-- [ ] Validations:
-  - [ ] All fields must be filled in
-  - [ ] Rating can only be a number between 1-5
-  - [ ] Review content must be between 50-250 characters
+- [x] CRUD for reviews within product detail page
+- [x] Scopes:
+  - [x] Product with most reviews
+  - [x] 3 most recently added products
+  - [x] All products made in the US
+- [x] Validations:
+  - [x] All fields must be filled in
+  - [x] Rating can only be a number between 1-5
+  - [x] Review content must be between 50-250 characters
 - [ ] Custom styling
 - [ ] Unit and integration tests
-- [ ] Success and error flash messages
+- [x] Success and error flash messages
 - [ ] README
 
 ### Further Exploration

@@ -6,7 +6,8 @@ class ReviewsController < ApplicationController
   end
 
   def create
-    if @product.reviews.create(review_params)
+    @review = @product.reviews.new(review_params)
+    if @review.save
       redirect_to product_path(@product), notice: 'Successfully added review!'
     else
       render :new

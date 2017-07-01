@@ -7,3 +7,28 @@
 </ul>
 
 <%= link_to 'Add New Product', new_product_path, :class => 'btn btn-outline-success' %>
+
+<hr>
+
+<h1>Featured Products</h1>
+
+<br>
+
+<h4>Most Reviewed:</h4>
+<ul>
+  <li><%= link_to @products.most_reviewed[0].name, product_path(@products.most_reviewed[0]) %></li>
+</ul>
+
+<h4>Recently Added:</h4>
+  <ul>
+    <% @products.recently_added.each do |product| %>
+      <li><%= link_to product.name, product_path(product) %></li>
+    <% end %>
+  </ul>
+
+  <h4>Domestic Products:</h4>
+    <ul>
+      <% @products.domestic.each do |product| %>
+        <li><%= link_to product.name, product_path(product) %></li>
+      <% end %>
+    </ul>
