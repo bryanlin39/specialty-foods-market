@@ -33,3 +33,4 @@
 - [ ] Stars instead of numbers for ratings
 - [ ] Add images for products
 - [ ] User authentication
+- [ ] Search bar
