@@ -1,6 +1,6 @@
 <%= render 'layouts/errors', :object => @product %>
 
-<%= form_for @product do |f| %>
+<%= form_for @product, html: {class: 'ui form'} do |f| %>
   <div class='form-group'>
     <%= f.label :name %>
     <br>
@@ -16,5 +16,5 @@
     <br>
     <%= f.text_field :origin %>
   </div>
-  <%= f.submit :class => 'btn btn-outline-info'%>
+  <%= f.submit :class => 'ui positive basic button'%>
 <% end %>
